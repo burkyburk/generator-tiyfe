@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'git+https://github.com/alarner/generator-tiyfe.git' ]
+2 info using npm@2.1.11
+3 info using node@v0.10.33
+4 verbose node symlink /usr/local/bin/node
+5 silly cache add args [ 'git+https://github.com/alarner/generator-tiyfe.git', null ]
+6 verbose cache add spec git+https://github.com/alarner/generator-tiyfe.git
+7 silly cache add parsed spec { raw: 'git+https://github.com/alarner/generator-tiyfe.git',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: 'git+https://github.com/alarner/generator-tiyfe.git',
+7 silly cache add   spec: 'https://github.com/alarner/generator-tiyfe.git',
+7 silly cache add   type: 'git' }
+8 verbose addRemoteGit u="https://github.com/alarner/generator-tiyfe.git" silent=false
+9 silly addRemoteGit parsed { protocol: 'https:',
+9 silly addRemoteGit   slashes: true,
+9 silly addRemoteGit   auth: null,
+9 silly addRemoteGit   host: 'github.com',
+9 silly addRemoteGit   port: null,
+9 silly addRemoteGit   hostname: 'github.com',
+9 silly addRemoteGit   hash: null,
+9 silly addRemoteGit   search: '',
+9 silly addRemoteGit   query: {},
+9 silly addRemoteGit   pathname: '/alarner/generator-tiyfe.git',
+9 silly addRemoteGit   path: '/alarner/generator-tiyfe.git',
+9 silly addRemoteGit   href: 'https://github.com/alarner/generator-tiyfe.git' }
+10 verbose addRemoteGit https://github.com/alarner/generator-tiyfe.git not in flight; cloning
+11 verbose addRemoteGit [ 'https://github.com/alarner/generator-tiyfe.git', 'master' ]
+12 info git [ 'clone',
+12 info git   '--template=/Users/alarner/.npm/_git-remotes/_templates',
+12 info git   '--mirror',
+12 info git   'https://github.com/alarner/generator-tiyfe.git',
+12 info git   '/Users/alarner/.npm/_git-remotes/https-github-com-alarner-generator-tiyfe-git-1a22e670' ]
+13 verbose git clone https://github.com/alarner/generator-tiyfe.git Cloning into bare repository '/Users/alarner/.npm/_git-remotes/https-github-com-alarner-generator-tiyfe-git-1a22e670'...
+13 verbose git clone https://github.com/alarner/generator-tiyfe.git warning: You appear to have cloned an empty repository.
+14 info git [ 'fetch', '-a', 'origin' ]
+15 verbose git fetch -a origin (https://github.com/alarner/generator-tiyfe.git)
+16 info git [ 'rev-list', '-n1', 'master' ]
+17 error Failed resolving git HEAD (https://github.com/alarner/generator-tiyfe.git) fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+17 error Failed resolving git HEAD (https://github.com/alarner/generator-tiyfe.git) Use '--' to separate paths from revisions, like this:
+17 error Failed resolving git HEAD (https://github.com/alarner/generator-tiyfe.git) 'git <command> [<revision>...] -- [<file>...]'
+18 verbose stack Error: Command failed: fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+18 verbose stack Use '--' to separate paths from revisions, like this:
+18 verbose stack 'git <command> [<revision>...] -- [<file>...]'
+18 verbose stack
+18 verbose stack     at ChildProcess.exithandler (child_process.js:648:15)
+18 verbose stack     at ChildProcess.emit (events.js:98:17)
+18 verbose stack     at maybeClose (child_process.js:756:16)
+18 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:823:5)
+19 verbose cwd /Users/alarner/Projects/generator-tiyfe
+20 error Darwin 13.4.0
+21 error argv "node" "/usr/local/bin/npm" "install" "-g" "git+https://github.com/alarner/generator-tiyfe.git"
+22 error node v0.10.33
+23 error npm  v2.1.11
+24 error code 128
+25 error Command failed: fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+25 error Use '--' to separate paths from revisions, like this:
+25 error 'git <command> [<revision>...] -- [<file>...]'
+26 error If you need help, you may report this error at:
+26 error     <http://github.com/npm/npm/issues>
+27 verbose exit [ 1, true ]

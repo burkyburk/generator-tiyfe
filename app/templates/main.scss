@@ -1,0 +1,13 @@
+<% if (includeBootstrap) { %>$icon-font-path: '../fonts/';
+
+// bower:scss
+// endbower
+
+<% } %><% if (includeNormalize) { %>
+
+// bower:css
+// endbower
+
+<% } %><% if (includeReset) { %>@import 'reset';
+
+<% } %>
