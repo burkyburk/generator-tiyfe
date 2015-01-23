@@ -26,7 +26,7 @@ gulp.task('devStyles', function () {
 });
 
 gulp.task('distStyles', function () {
-  styles('<%= buildPath %>');
+  styles('<%= buildPath %>/styles');
 });
 
 gulp.task('jshint', function () {
